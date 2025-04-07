@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Claudien Bakaly | Portfolio</title>
-  <meta content="" name="description">
+  <title>Ton Nom | Développeur Web en RDC</title>
+  <meta name="description" content="Développeur web basé en RDC, je crée des sites modernes et performants adaptés aux besoins des entreprises et particuliers.">
+
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -91,7 +93,7 @@
       <img src="assets/img/bg-3.jpg" alt="" data-aos="fade-in" class="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h4>Je suis</h4>
+        <h1 class="fs-4">Je suis</h1>
         <h2>Claudien Bakaly</h2>
         <p><span class="typed fs-3 fw-bold text-info" data-typed-items="Developpeur web Front-end,Developpeur web Back-end"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
@@ -391,7 +393,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>N'hésitez pas à me contacter ! Je suis disponible pour discuter de vos besoins 
+        <p>N'hésitez pas à me contacter ! Je suis disponible pour discuter de vos besoins
           et vous proposer la meilleure solution adaptée à votre projet.</p>
       </div><!-- End Section Title -->
 
@@ -459,10 +461,9 @@
                   <div class="alert alert-success alert-dismissible fade show" style="display: none;" id="status-message" role="alert">
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                   </div>
-                  <div class="alert alert-danger alert-dismissible fade show" style="display: none;" id="error-message" role="alert">
+                  <div class="alert alert-danger alert-dismissible fade show" style="display: none;" id="error-message" role="alert" >
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                   </div>
-
                   <button type="submit">Envoyer</button>
                 </div>
 
@@ -495,7 +496,7 @@
                   .then(function(response) {
                       console.log("Email envoyé avec succès", response);
                       statusMessage.style.display = "block";
-                      statusMessage.innerHTML = "✅ Votre message a été envoyé avec succès <br> Nous vous répondrons dans un délai de 24 heures. Merci pour votre patience et votre confiance.<button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>";
+                      statusMessage.innerHTML = "✅ Votre message a été envoyé avec succès. <br> Nous vous répondrons dans un délai de 24 heures. Merci pour votre patience et votre confiance.<button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>";
 
                       // Réinitialiser le formulaire
                       document.getElementById("contact-form").reset();
